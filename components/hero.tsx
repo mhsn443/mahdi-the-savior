@@ -11,7 +11,7 @@ export default function Hero() {
         <span>Biharul Anwar, Volume 52, Page 321</span>
       </Badge>
       <p
-        className="mt-6 font-medium tracking-tighter md:leading-[1.2]"
+        className="mt-6 leading-relaxed font-medium tracking-tighter"
         style={{ fontSize: "clamp(1.5rem, 0.838rem + 2.206vw, 2.25rem)" }}
       >
         Imam ‘Ali ibn Musa al-Ridha (pbuh)

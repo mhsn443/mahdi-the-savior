@@ -121,4 +121,9 @@
     font-family: var(--font-poppins), sans-serif;
     line-height: 2;
   }
+
+  h1,
+  h2 {
+    line-height: 1.625;
+  }
 }
