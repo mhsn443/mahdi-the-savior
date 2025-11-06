@@ -17,7 +17,7 @@ export default function Home() {
           Who is Imam Mahdi (a.j.)?
         </h1>
         <div className="space-y-4">
-          <p>
+          <p className="-mt-4">
             Imam Mahdi (a.j.), whose full name is Muhammad ibn Hasan al-Askari,
             is the last of the twelve infallible Imams. God has sent him to
             guide and save humanity from oppression and corruption. He is
@@ -64,7 +64,7 @@ export default function Home() {
           Signs of the reappearance of Imam Mahdi (a.j.)
         </h2>
         <div className="space-y-4">
-          <p>
+          <p className="-mt-4">
             The signs of the reappearance are divided into definite and
             non-definite signs. Definite signs are those whose occurrence is
             certain, and Imam Mahdi (a.j.) will not reappear until they take
@@ -72,33 +72,39 @@ export default function Home() {
             confirmed to be certain, and the Imam Mahdi (a.j.) may reappear even
             if they do not occur.
           </p>
-          <ul className="ml-4 list-inside list-disc">
-            <li>
-              According to a narration reported by Sheikh al-Saduq, the
-              appearance of Sufyani, the uprising of Yamani, the heavenly cry,
-              the killing of the Pure Soul (Nafs al-Zakiyyah), and the
-              swallowing of the army in the desert of Bayda are among the
-              definite signs of the reappearance.
-            </li>
-          </ul>
-          <p>
-            In Judaism and Christianity, certain signs have been mentioned
-            regarding the coming of the savior, some of which are similar to the
-            signs of reappearance mentioned in Islamic traditions.
-          </p>
-          <ul className="ml-4 list-inside list-disc">
-            <li>
-              Jews believe that the spread of corruption and the prevalence of
-              war and chaos are among the signs of the coming of the Messiah
-              (Mashiach).
-            </li>
-            <li>
-              Christians, on the other hand, believe that the Antichrist—or
-              Dajjal—is a person or group who denies or rejects the messiahship
-              of Jesus (pbuh). The Antichrist will rise at the end of times, and
-              when Jesus (pbuh) returns, he will defeat him.
-            </li>
-          </ul>
+          <div>
+            <p>
+              According to a narration reported by Sheikh Saduq, some of the
+              definitive signs are:
+            </p>
+            <ul className="ml-4 list-inside list-disc">
+              <li>The appearance of Sufyani</li>
+              <li>The uprising of Yamani</li>
+              <li>The heavenly cry</li>
+              <li>The killing of the Pure Soul (Nafs al-Zakiyyah)</li>
+              <li>The swallowing of the army in the desert of Bayda</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              In Judaism and Christianity, certain signs have been mentioned
+              regarding the coming of the savior, some of which are similar to
+              the signs of reappearance mentioned in Islamic traditions.
+            </p>
+            <ul className="ml-4 list-inside list-disc">
+              <li>
+                Jews believe that the spread of corruption and the prevalence of
+                war and chaos are among the signs of the coming of the Messiah
+                (Mashiach).
+              </li>
+              <li>
+                Christians, on the other hand, believe that the Antichrist—or
+                Dajjal—is a person or group who denies or rejects the
+                messiahship of Jesus (pbuh). The Antichrist will rise at the end
+                of times, and when Jesus (pbuh) returns, he will defeat him.
+              </li>
+            </ul>
+          </div>
         </div>
         <Link href={"/signs-of-the-reappearance"} className="self-end">
           <ReadMoreButton />
