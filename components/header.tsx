@@ -67,11 +67,11 @@ export default function Header() {
                   {navigationLinks.map((link, index) => (
                     <NavigationMenuItem key={index} className="w-full">
                       <NavigationMenuLink
-                        href={link.href}
+                        asChild
                         className="py-1.5"
                         active={link.href === pathname}
                       >
-                        {link.label}
+                        <Link href={link.href}>{link.label}</Link>
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                   ))}
@@ -90,11 +90,11 @@ export default function Header() {
                 {navigationLinks.map((link, index) => (
                   <NavigationMenuItem key={index}>
                     <NavigationMenuLink
+                      asChild
                       active={link.href === pathname}
-                      href={link.href}
                       className="hover:text-primary py-1.5"
                     >
-                      {link.label}
+                      <Link href={link.href}>{link.label}</Link>
                     </NavigationMenuLink>
                   </NavigationMenuItem>
                 ))}
