@@ -1,4 +1,4 @@
-type FAQ = {
+export type FAQ = {
   id: string;
   title: string;
   content: string;

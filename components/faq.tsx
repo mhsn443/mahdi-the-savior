@@ -4,9 +4,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faq } from "@/data/homepage-faq";
+import type { FAQ } from "@/data/homepage-faq";
 
-export default function FAQ() {
+type FAQProps = {
+  faq: FAQ[];
+};
+
+export default function FAQ({ faq }: FAQProps) {
   return (
     <div className="space-y-4">
       <Accordion

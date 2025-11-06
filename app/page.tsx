@@ -2,6 +2,7 @@ import FAQ from "@/components/faq";
 import Hero from "@/components/hero";
 import ReadMoreButton from "@/components/read-more-button";
 import Link from "next/link";
+import { faq } from "@/data/homepage-faq";
 
 export default function Home() {
   return (
@@ -119,7 +120,7 @@ export default function Home() {
         >
           Frequently asked questions about Imam Mahdi (a.j.)
         </h2>
-        <FAQ />
+        <FAQ faq={faq} />
         <Link href={"/faq"} className="self-end">
           <ReadMoreButton />
         </Link>
