@@ -17,7 +17,7 @@ export default function Hero() {
         Imam ‘Ali ibn Musa al-Ridha (pbuh)
       </p>
       <p
-        className="text-foreground/80 mt-6"
+        className="mt-6"
         style={{ fontSize: "clamp(1rem, 0.89rem + 0.368vw, 1.125rem)" }}
       >
         “ … So when he [Imam al-Mahdi (a.j.)] will make his advent, the Earth
