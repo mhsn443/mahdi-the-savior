@@ -33,7 +33,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
+          <div className="sticky top-0">
+            <Header />
+          </div>
           {children}
           <Footer />
         </ThemeProvider>
