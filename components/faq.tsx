@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import type { FAQ } from "@/data/homepage-faq";
+import type { FAQ } from "@/data/original-faq";
 
 type FAQProps = {
   faq: FAQ[];

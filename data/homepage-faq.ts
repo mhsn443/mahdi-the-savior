@@ -1,10 +1,6 @@
-export type FAQ = {
-  id: string;
-  title: string;
-  content: string;
-};
+import type { FAQ } from "./original-faq";
 
-export const faq: FAQ[] = [
+export const homepageFAQ: FAQ[] = [
   {
     id: "1",
     title: "Who is Imam Mahdi (a.j.)?",

@@ -18,13 +18,13 @@ export default function SignsOfTheReappearance() {
         </p>
       </div>
 
-      {/* The definite signs */}
+      {/* The Definite Signs */}
       <div className="space-y-4">
         <h2
           className="mt-6 font-medium"
           style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
         >
-          The definite signs
+          The Definite Signs
         </h2>
         <div className="-mt-4">
           <p>
@@ -41,13 +41,13 @@ export default function SignsOfTheReappearance() {
         </div>
       </div>
 
-      {/* The non-definitive signs */}
+      {/* The Non-Definitive Signs */}
       <div className="space-y-4">
         <h2
           className="mt-6 font-medium"
           style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
         >
-          The non-definitive signs
+          The Non-Definitive Signs
         </h2>
         <div className="-mt-4">
           <p>

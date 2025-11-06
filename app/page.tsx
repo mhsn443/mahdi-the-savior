@@ -2,7 +2,7 @@ import FAQ from "@/components/faq";
 import Hero from "@/components/hero";
 import ReadMoreButton from "@/components/read-more-button";
 import Link from "next/link";
-import { faq } from "@/data/homepage-faq";
+import { homepageFAQ } from "@/data/homepage-faq";
 
 export default function Home() {
   return (
@@ -56,13 +56,13 @@ export default function Home() {
         </Link>
       </section>
 
-      {/* Signs of the reappearance of Imam Mahdi (a.j.) */}
+      {/* Signs of the Reappearance of Imam Mahdi (a.j.) */}
       <section className="mt-32 flex flex-col gap-y-4 md:mt-48">
         <h2
           className="font-bold"
           style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
         >
-          Signs of the reappearance of Imam Mahdi (a.j.)
+          Signs of the Reappearance of Imam Mahdi (a.j.)
         </h2>
         <div className="space-y-4">
           <p className="-mt-4">
@@ -112,15 +112,15 @@ export default function Home() {
         </Link>
       </section>
 
-      {/* Frequently asked questions about Imam Mahdi (a.j.) */}
+      {/* Frequently Asked Questions About Imam Mahdi (a.j.) */}
       <section className="mt-32 flex flex-col gap-y-4 md:mt-48">
         <h2
           className="font-bold"
           style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
         >
-          Frequently asked questions about Imam Mahdi (a.j.)
+          Frequently Asked Questions About Imam Mahdi (a.j.)
         </h2>
-        <FAQ faq={faq} />
+        <FAQ faq={homepageFAQ} />
         <Link href={"/faq"} className="self-end">
           <ReadMoreButton />
         </Link>
