@@ -1,3 +1,4 @@
+import FAQ from "@/components/faq";
 import Hero from "@/components/hero";
 import ReadMoreButton from "@/components/read-more-button";
 import Link from "next/link";
@@ -56,12 +57,12 @@ export default function Home() {
 
       {/* Signs of the reappearance of Imam Mahdi (a.j.) */}
       <section className="mt-32 flex flex-col gap-y-4 md:mt-48">
-        <h1
+        <h2
           className="font-bold"
           style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
         >
           Signs of the reappearance of Imam Mahdi (a.j.)
-        </h1>
+        </h2>
         <div className="space-y-4">
           <p>
             The signs of the reappearance are divided into definite and
@@ -100,6 +101,20 @@ export default function Home() {
           </ul>
         </div>
         <Link href={"/signs-of-the-reappearance"} className="self-end">
+          <ReadMoreButton />
+        </Link>
+      </section>
+
+      {/* Frequently asked questions about Imam Mahdi (a.j.) */}
+      <section className="mt-32 flex flex-col gap-y-4 md:mt-48">
+        <h2
+          className="font-bold"
+          style={{ fontSize: "clamp(1.25rem, 0.809rem + 1.471vw, 1.75rem)" }}
+        >
+          Frequently asked questions about Imam Mahdi (a.j.)
+        </h2>
+        <FAQ />
+        <Link href={"/faq"} className="self-end">
           <ReadMoreButton />
         </Link>
       </section>
