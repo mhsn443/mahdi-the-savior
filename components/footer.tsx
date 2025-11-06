@@ -9,7 +9,7 @@ export default function Footer() {
       </p>
       <p className="text-foreground/50 mt-4 text-xs">
         May God Almighty hasten the reappearance of the savior of humanity, Imam
-        Mahdi (a.j.)
+        Mahdi (a.j.).
       </p>
     </footer>
   );

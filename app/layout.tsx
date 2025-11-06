@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${poppins.variable} mx-auto max-w-[1056px] px-4 antialiased`}
+        className={`${poppins.variable} mx-auto flex min-h-dvh max-w-[1056px] flex-col justify-between px-4 antialiased`}
       >
         <ThemeProvider
           attribute="class"
