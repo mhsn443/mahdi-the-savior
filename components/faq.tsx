@@ -21,10 +21,10 @@ export default function FAQ() {
             key={question.id}
             className="bg-background has-focus-visible:border-ring has-focus-visible:ring-ring/50 rounded-md border px-4 py-1 outline-none last:border-b has-focus-visible:ring-[3px]"
           >
-            <AccordionTrigger className="py-2 text-[15px] leading-6 hover:no-underline focus-visible:ring-0">
+            <AccordionTrigger className="py-2 text-[15px] leading-relaxed hover:no-underline focus-visible:ring-0">
               {question.title}
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground pb-2">
+            <AccordionContent className="text-muted-foreground pb-2 leading-relaxed">
               {question.content}
             </AccordionContent>
           </AccordionItem>
