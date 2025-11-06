@@ -15,8 +15,8 @@ import {
 } from "@/components/ui/popover";
 import { navigationLinks } from "@/data/navbar-menu";
 import { usePathname } from "next/navigation";
-import path from "path";
 import ModeToggle from "./mode-toggle";
+import Link from "next/link";
 
 export default function Header() {
   const pathname = usePathname();
@@ -81,9 +81,9 @@ export default function Header() {
           </Popover>
           {/* Main nav */}
           <div className="flex items-center gap-6">
-            <a href="/" className="text-primary hover:text-primary/90">
+            <Link href="/" className="text-primary hover:text-primary/90">
               <Logo />
-            </a>
+            </Link>
             {/* Navigation menu */}
             <NavigationMenu className="max-md:hidden">
               <NavigationMenuList className="gap-2">
