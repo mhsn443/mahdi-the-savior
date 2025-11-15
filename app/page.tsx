@@ -18,7 +18,7 @@ export default function Home() {
           Who is Imam Mahdi (a.j.)?
         </h1>
         <div className="space-y-4">
-          <p className="-mt-4">
+          <p className="-mt-2">
             Imam Mahdi (a.j.), whose full name is Muhammad ibn Hasan al-Askari,
             is the last of the twelve infallible Imams. God has sent him to
             guide and save humanity from oppression and corruption. He is
@@ -65,7 +65,7 @@ export default function Home() {
           Signs of the Reappearance of Imam Mahdi (a.j.)
         </h2>
         <div className="space-y-4">
-          <p className="-mt-4">
+          <p className="-mt-2">
             The signs of the reappearance are divided into definite and
             non-definite signs. Definite signs are those whose occurrence is
             certain, and Imam Mahdi (a.j.) will not reappear until they take

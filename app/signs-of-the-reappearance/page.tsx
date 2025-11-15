@@ -8,7 +8,7 @@ export default function SignsOfTheReappearance() {
         >
           Signs of the Reappearance of Imam Mahdi (a.j.)
         </h1>
-        <p>
+        <p className="mt-2">
           The signs of the reappearance are divided into definite and
           non-definite signs. Definite signs are those whose occurrence is
           certain, and Imam Mahdi (a.j.) will not reappear until they take
@@ -26,7 +26,7 @@ export default function SignsOfTheReappearance() {
         >
           The Definite Signs
         </h2>
-        <div className="-mt-4">
+        <div className="-mt-2">
           <p>
             According to a narration reported by Sheikh Saduq, some of the
             definitive signs are:
@@ -49,7 +49,7 @@ export default function SignsOfTheReappearance() {
         >
           The Non-Definitive Signs
         </h2>
-        <div className="-mt-4">
+        <div className="-mt-2">
           <p>
             Sheikh Mufid, in his book Al-Irshad, provided a list of the signs of
             the reappearance. Referring to the phrase “Wallahu A‘lam” (And Allah
@@ -110,7 +110,7 @@ export default function SignsOfTheReappearance() {
         >
           Signs of the Reappearance in Other Religions
         </h2>
-        <div className="-mt-4">
+        <div className="-mt-2">
           <p>
             In Judaism and Christianity, certain signs have been mentioned
             regarding the coming of the savior, some of which are similar to the

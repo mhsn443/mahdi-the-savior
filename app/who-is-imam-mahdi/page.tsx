@@ -8,7 +8,7 @@ export default function WhoIsImamMahdi() {
         >
           Who is Imam Mahdi (a.j.)?
         </h1>
-        <p>
+        <p className="mt-2">
           Imam Mahdi (a.j.), whose full name is Muhammad ibn Hasan al-Askari, is
           the last of the twelve infallible Imams. God has sent him to guide and
           save humanity from oppression and corruption. He is currently in
@@ -26,7 +26,7 @@ export default function WhoIsImamMahdi() {
         >
           The Identity and Status of Imam Mahdi (a.j.)
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           Imam Mahdi (a.j.) is the son of Imam Hasan al-Askari (pbuh) and a
           descendant of the Prophet of Islam (pbuh). He holds the position of
           Imamate and is infallible, meaning he is free from any error or
@@ -45,7 +45,7 @@ export default function WhoIsImamMahdi() {
         >
           The Occultation of Imam Mahdi (a.j.)
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           Imam Mahdi (a.j.) entered the period of occultation from childhood,
           which is divided into two phases:
         </p>
@@ -74,7 +74,7 @@ export default function WhoIsImamMahdi() {
         >
           The Role of Imam Mahdi (a.j.) in the End Times
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           When the world is engulfed in oppression, corruption, injustice, and
           chaos, Imam Mahdi (a.j.) will appear to establish order and justice.
           With the help of divine powers, he will guide people toward truth and
@@ -101,7 +101,7 @@ export default function WhoIsImamMahdi() {
         >
           The Relationship of Imam Mahdi (a.j.) with Prophet Jesus (pbuh)
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           According to religious sources, Prophet Jesus (pbuh) will return to
           earth at the time of Imam Mahdi’s (a.j.) advent to assist him in
           establishing global justice. The presence of Prophet Jesus (pbuh)
@@ -123,7 +123,7 @@ export default function WhoIsImamMahdi() {
         >
           Personality and Moral Characteristics of Imam Mahdi (a.j.)
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           Imam Mahdi (a.j.) is known as a person endowed with divine knowledge
           and wisdom, whose every decision is based on justice, truthfulness,
           and compassion. He is not only a political leader but also a great
@@ -139,7 +139,7 @@ export default function WhoIsImamMahdi() {
         >
           The Importance and Message of the Appearance of Imam Mahdi (a.j.)
         </h2>
-        <p className="-mt-4">
+        <p className="-mt-2">
           His reappearance symbolizes the ultimate triumph of truth over
           falsehood and fulfills God’s promise to restore balance and justice to
           the world. This event is a great hope for all humanity, showing that
